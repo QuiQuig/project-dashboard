@@ -1,0 +1,41 @@
+name: Update Dashboard Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:         # Manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'docs/projects.json'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch project data
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+        run: node scripts/fetch-project-data.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Update dashboard data [skip ci]"
+            git push
+          fi
