@@ -1,0 +1,173 @@
+{
+  "projectId": "partner-account-sync",
+  "displayName": "Partner Account Sync",
+  "owner": "QuiQuig",
+  "repo": "partner-account-sync",
+  "projectNumber": 2,
+  "projectTitle": "Partner Account Sync",
+  "projectDescription": null,
+  "repoMeta": {
+    "fullName": "QuiQuig/partner-account-sync",
+    "description": null,
+    "openIssues": 7,
+    "stars": 0,
+    "updatedAt": "2026-03-20T21:48:34Z"
+  },
+  "fields": [
+    {
+      "name": "Title",
+      "type": "TITLE"
+    },
+    {
+      "name": "Assignees",
+      "type": "ASSIGNEES"
+    },
+    {
+      "name": "Status",
+      "type": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "f8f8308e",
+          "name": "Todo"
+        },
+        {
+          "id": "c56ce44e",
+          "name": "In Progress"
+        },
+        {
+          "id": "6bb692ad",
+          "name": "Blocked"
+        },
+        {
+          "id": "776bd3f7",
+          "name": "Done"
+        }
+      ]
+    },
+    {
+      "name": "Labels",
+      "type": "LABELS"
+    },
+    {
+      "name": "Linked pull requests",
+      "type": "LINKED_PULL_REQUESTS"
+    },
+    {
+      "name": "Milestone",
+      "type": "MILESTONE"
+    },
+    {
+      "name": "Repository",
+      "type": "REPOSITORY"
+    },
+    {
+      "name": "Reviewers",
+      "type": "REVIEWERS"
+    },
+    {
+      "name": "Parent issue",
+      "type": "PARENT_ISSUE"
+    },
+    {
+      "name": "Sub-issues progress",
+      "type": "SUB_ISSUES_PROGRESS"
+    },
+    {
+      "name": "Estimated Start",
+      "type": "DATE"
+    },
+    {
+      "name": "Estimated End",
+      "type": "DATE"
+    },
+    {
+      "name": "Actual Start",
+      "type": "DATE"
+    },
+    {
+      "name": "Actual End",
+      "type": "DATE"
+    },
+    {
+      "name": "Priority",
+      "type": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "3d78d8eb",
+          "name": "P0 - Critical"
+        },
+        {
+          "id": "60831119",
+          "name": "P1 - High"
+        },
+        {
+          "id": "dfc7373b",
+          "name": "P2 - Medium"
+        },
+        {
+          "id": "4c3d3e24",
+          "name": "P3 - Low"
+        }
+      ]
+    },
+    {
+      "name": "Phase",
+      "type": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "1519af47",
+          "name": "Phase 1 — Core Infrastructure"
+        },
+        {
+          "id": "58f13a51",
+          "name": "Phase 2 — API Integration"
+        },
+        {
+          "id": "a27939d4",
+          "name": "Phase 3 — Sync Engine"
+        },
+        {
+          "id": "af2c598f",
+          "name": "Phase 4 — Reporting & Polish"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total": 30,
+    "done": 23,
+    "inProgress": 3,
+    "blocked": 1,
+    "todo": 3
+  },
+  "phases": {
+    "Unassigned": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 1 — Core Infrastructure": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 2 — API Integration": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 3 — Sync Engine": {
+      "total": 7,
+      "done": 4
+    },
+    "Phase 4 — Reporting & Polish": {
+      "total": 5,
+      "done": 1
+    }
+  },
+  "priorities": {
+    "None": 6,
+    "P1 - High": 10,
+    "P2 - Medium": 8,
+    "P0 - Critical": 2,
+    "P3 - Low": 4
+  },
+  "fetchedAt": "2026-03-27T02:24:24.226Z"
+}
