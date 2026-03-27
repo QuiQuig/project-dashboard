@@ -1,146 +1,502 @@
 [
   {
-    "type": "commit",
-    "sha": "4a08e55",
-    "message": "fix: handle null CAN values in account matcher index",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-25T09:30:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/4a08e55"
-  },
-  {
-    "type": "commit",
-    "sha": "5b19f66",
-    "message": "feat: add 3 remaining report sheets (skipped records, errors, needs-assets)",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-25T16:00:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/5b19f66"
-  },
-  {
-    "type": "commit",
-    "sha": "39f7d44",
-    "message": "wip: customer sync enrichment from 4 QB sources",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-24T15:00:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/39f7d44"
-  },
-  {
-    "type": "commit",
-    "sha": "c1d9f42",
-    "message": "feat: add SF Lightning hyperlinks to report sheets",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-23T11:00:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/c1d9f42"
-  },
-  {
-    "type": "commit",
-    "sha": "b7e4d09",
-    "message": "feat: add ExcelJS workbook generator with summary sheet",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-22T14:30:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/b7e4d09"
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 30,
+      "title": "Documentation — README, .env.example, setup instructions"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:53Z"
   },
   {
     "type": "issue_event",
-    "event": "assigned",
-    "issue": {"number": 20, "title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks"},
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 30,
+      "title": "Documentation — README, .env.example, setup instructions"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-21T09:00:00Z"
-  },
-  {
-    "type": "issue_event",
-    "event": "assigned",
-    "issue": {"number": 18, "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts"},
-    "actor": "QuiQuig",
-    "createdAt": "2026-03-20T09:00:00Z"
+    "createdAt": "2026-03-26T21:09:52Z"
   },
   {
     "type": "issue_event",
     "event": "labeled",
-    "issue": {"number": 19, "title": "Asset sync flow — find QB assets, batch-create SF Asset records"},
+    "issue": {
+      "number": 30,
+      "title": "Documentation — README, .env.example, setup instructions"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-20T10:15:00Z"
+    "createdAt": "2026-03-26T21:09:52Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 29,
+      "title": "End-to-end sandbox testing with production-like data"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:49Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 29,
+      "title": "End-to-end sandbox testing with production-like data"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:48Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 29,
+      "title": "End-to-end sandbox testing with production-like data"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:48Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 28,
+      "title": "Dry-run mode — full execution without SF writes"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:44Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 28,
+      "title": "Dry-run mode — full execution without SF writes"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:44Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 28,
+      "title": "Dry-run mode — full execution without SF writes"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:44Z"
   },
   {
     "type": "issue_event",
     "event": "closed",
-    "issue": {"number": 21, "title": "API error parser — translate SF/QB errors to plain English"},
+    "issue": {
+      "number": 27,
+      "title": "API error parser — translate SF/QB errors to plain English"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-18T13:00:00Z"
+    "createdAt": "2026-03-26T21:09:41Z"
   },
   {
-    "type": "commit",
-    "sha": "d4a2e88",
-    "message": "feat: error parser with pattern matching for 10+ SF/QB error types",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-18T12:45:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/d4a2e88"
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 27,
+      "title": "API error parser — translate SF/QB errors to plain English"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:37Z"
   },
   {
-    "type": "commit",
-    "sha": "e5b3f99",
-    "message": "wip: partner sync flow — QB enrichment and SF matching",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-17T16:30:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/e5b3f99"
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 27,
+      "title": "API error parser — translate SF/QB errors to plain English"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:37Z"
   },
   {
-    "type": "commit",
-    "sha": "17d5b22",
-    "message": "refactor: extract dedup logic into orchestrator pre-processing step",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-15T10:00:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/17d5b22"
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 27,
+      "title": "API error parser — translate SF/QB errors to plain English"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:36Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 26,
+      "title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:32Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 26,
+      "title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:31Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 26,
+      "title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:31Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 26,
+      "title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:31Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 25,
+      "title": "Asset sync flow — find QB assets, batch-create SF Asset records"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:27Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 25,
+      "title": "Asset sync flow — find QB assets, batch-create SF Asset records"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:27Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 25,
+      "title": "Asset sync flow — find QB assets, batch-create SF Asset records"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:26Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 24,
+      "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:22Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 24,
+      "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:22Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 24,
+      "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:22Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 24,
+      "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:22Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 23,
+      "title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:17Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 23,
+      "title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:17Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 23,
+      "title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:17Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 23,
+      "title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:17Z"
   },
   {
     "type": "issue_event",
     "event": "closed",
-    "issue": {"number": 16, "title": "Sync logger — outcome collection, typed arrays, error aggregation"},
+    "issue": {
+      "number": 22,
+      "title": "Sync logger — outcome collection, typed arrays, error aggregation"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-14T16:00:00Z"
-  },
-  {
-    "type": "commit",
-    "sha": "a3f8c21",
-    "message": "feat: implement sync logger with typed outcome arrays",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-14T15:45:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/a3f8c21"
+    "createdAt": "2026-03-26T21:09:15Z"
   },
   {
     "type": "issue_event",
-    "event": "assigned",
-    "issue": {"number": 17, "title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts"},
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 22,
+      "title": "Sync logger — outcome collection, typed arrays, error aggregation"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-14T09:00:00Z"
+    "createdAt": "2026-03-26T21:09:11Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 22,
+      "title": "Sync logger — outcome collection, typed arrays, error aggregation"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:11Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 22,
+      "title": "Sync logger — outcome collection, typed arrays, error aggregation"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:10Z"
   },
   {
     "type": "issue_event",
     "event": "closed",
-    "issue": {"number": 15, "title": "Asset mapper — product type mapping, license status, BDOM extraction"},
+    "issue": {
+      "number": 21,
+      "title": "Asset mapper — product type mapping, license status, BDOM extraction"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-11T14:00:00Z"
+    "createdAt": "2026-03-26T21:09:08Z"
   },
   {
-    "type": "commit",
-    "sha": "f6c4a11",
-    "message": "feat: asset mapper with product ID mapping and status conversion",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-11T13:30:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/f6c4a11"
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 21,
+      "title": "Asset mapper — product type mapping, license status, BDOM extraction"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:04Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 21,
+      "title": "Asset mapper — product type mapping, license status, BDOM extraction"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:03Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 21,
+      "title": "Asset mapper — product type mapping, license status, BDOM extraction"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:09:03Z"
   },
   {
     "type": "issue_event",
     "event": "closed",
-    "issue": {"number": 14, "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral"},
+    "issue": {
+      "number": 20,
+      "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral"
+    },
     "actor": "QuiQuig",
-    "createdAt": "2026-03-07T18:00:00Z"
+    "createdAt": "2026-03-26T21:09:01Z"
   },
   {
-    "type": "commit",
-    "sha": "28e6c33",
-    "message": "feat: sync orchestrator with 8-phase execution pipeline",
-    "author": "QuiQuig",
-    "createdAt": "2026-03-07T17:30:00Z",
-    "url": "https://github.com/QuiQuig/partner-account-sync/commit/28e6c33"
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 20,
+      "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:58Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 20,
+      "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:58Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 20,
+      "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:58Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 20,
+      "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:57Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "closed",
+    "issue": {
+      "number": 19,
+      "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:55Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 19,
+      "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:52Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 19,
+      "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:52Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 19,
+      "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:52Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 19,
+      "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:51Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "closed",
+    "issue": {
+      "number": 18,
+      "title": "Shared API types — SFAccount, SFContact, SFLicense, QBRecord interfaces"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:49Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "project_v2_item_status_changed",
+    "issue": {
+      "number": 18,
+      "title": "Shared API types — SFAccount, SFContact, SFLicense, QBRecord interfaces"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:45Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "added_to_project_v2",
+    "issue": {
+      "number": 18,
+      "title": "Shared API types — SFAccount, SFContact, SFLicense, QBRecord interfaces"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:45Z"
+  },
+  {
+    "type": "issue_event",
+    "event": "labeled",
+    "issue": {
+      "number": 18,
+      "title": "Shared API types — SFAccount, SFContact, SFLicense, QBRecord interfaces"
+    },
+    "actor": "QuiQuig",
+    "createdAt": "2026-03-26T21:08:45Z"
   }
 ]

@@ -1,17 +1,203 @@
 [
   {
-    "id": "PVTI_001",
-    "title": "Project scaffolding — TypeScript, ESM, package.json, tsconfig",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgoVPo4",
+    "title": "Run npm install and verify test suite passes",
     "number": 1,
     "type": "issue",
     "state": "CLOSED",
     "url": "https://github.com/QuiQuig/partner-account-sync/issues/1",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-07T16:30:00Z",
+    "createdAt": "2026-03-25T20:10:59Z",
+    "closedAt": "2026-03-26T21:05:30Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "setup", "color": "0E8A16"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "bug",
+        "color": "d73a4a"
+      }
+    ],
+    "assignees": [],
+    "status": null,
+    "priority": null,
+    "phase": null,
+    "estimatedStart": "2026-03-25",
+    "estimatedEnd": null,
+    "actualStart": null,
+    "actualEnd": null,
+    "effort": null,
+    "fields": {
+      "Title": "Run npm install and verify test suite passes",
+      "Estimated Start": "2026-03-25"
+    }
+  },
+  {
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgoVPp8",
+    "title": "Add retry logic for transient API errors",
+    "number": 2,
+    "type": "issue",
+    "state": "CLOSED",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/2",
+    "createdAt": "2026-03-25T20:11:03Z",
+    "closedAt": "2026-03-26T21:05:32Z",
+    "merged": false,
+    "mergedAt": null,
+    "labels": [
+      {
+        "name": "enhancement",
+        "color": "a2eeef"
+      }
+    ],
+    "assignees": [],
+    "status": null,
+    "priority": null,
+    "phase": null,
+    "estimatedStart": null,
+    "estimatedEnd": null,
+    "actualStart": null,
+    "actualEnd": null,
+    "effort": null,
+    "fields": {
+      "Title": "Add retry logic for transient API errors"
+    }
+  },
+  {
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgoVPqs",
+    "title": "Add integration / end-to-end tests",
+    "number": 3,
+    "type": "issue",
+    "state": "CLOSED",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/3",
+    "createdAt": "2026-03-25T20:11:06Z",
+    "closedAt": "2026-03-26T21:05:34Z",
+    "merged": false,
+    "mergedAt": null,
+    "labels": [
+      {
+        "name": "enhancement",
+        "color": "a2eeef"
+      }
+    ],
+    "assignees": [],
+    "status": null,
+    "priority": null,
+    "phase": null,
+    "estimatedStart": null,
+    "estimatedEnd": null,
+    "actualStart": null,
+    "actualEnd": null,
+    "effort": null,
+    "fields": {
+      "Title": "Add integration / end-to-end tests"
+    }
+  },
+  {
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgoVPrQ",
+    "title": "Add rate limiting and backoff for API calls",
+    "number": 4,
+    "type": "issue",
+    "state": "CLOSED",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/4",
+    "createdAt": "2026-03-25T20:11:10Z",
+    "closedAt": "2026-03-26T21:05:35Z",
+    "merged": false,
+    "mergedAt": null,
+    "labels": [
+      {
+        "name": "enhancement",
+        "color": "a2eeef"
+      }
+    ],
+    "assignees": [],
+    "status": null,
+    "priority": null,
+    "phase": null,
+    "estimatedStart": null,
+    "estimatedEnd": null,
+    "actualStart": null,
+    "actualEnd": null,
+    "effort": null,
+    "fields": {
+      "Title": "Add rate limiting and backoff for API calls"
+    }
+  },
+  {
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgoVPsA",
+    "title": "Add scheduling / automation support",
+    "number": 5,
+    "type": "issue",
+    "state": "CLOSED",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/5",
+    "createdAt": "2026-03-25T20:11:12Z",
+    "closedAt": "2026-03-26T21:05:37Z",
+    "merged": false,
+    "mergedAt": null,
+    "labels": [
+      {
+        "name": "enhancement",
+        "color": "a2eeef"
+      }
+    ],
+    "assignees": [],
+    "status": null,
+    "priority": null,
+    "phase": null,
+    "estimatedStart": null,
+    "estimatedEnd": null,
+    "actualStart": null,
+    "actualEnd": null,
+    "effort": null,
+    "fields": {
+      "Title": "Add scheduling / automation support"
+    }
+  },
+  {
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgoVPs8",
+    "title": "Add webhook/notification on sync completion",
+    "number": 6,
+    "type": "issue",
+    "state": "CLOSED",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/6",
+    "createdAt": "2026-03-25T20:11:16Z",
+    "closedAt": "2026-03-26T21:05:38Z",
+    "merged": false,
+    "mergedAt": null,
+    "labels": [
+      {
+        "name": "enhancement",
+        "color": "a2eeef"
+      }
+    ],
+    "assignees": [],
+    "status": null,
+    "priority": null,
+    "phase": null,
+    "estimatedStart": null,
+    "estimatedEnd": null,
+    "actualStart": null,
+    "actualEnd": null,
+    "effort": null,
+    "fields": {
+      "Title": "Add webhook/notification on sync completion"
+    }
+  },
+  {
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwYs",
+    "title": "Project scaffolding — TypeScript, ESM, package.json, tsconfig",
+    "number": 7,
+    "type": "issue",
+    "state": "CLOSED",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/7",
+    "createdAt": "2026-03-26T21:07:33Z",
+    "closedAt": "2026-03-26T21:07:37Z",
+    "merged": false,
+    "mergedAt": null,
+    "labels": [
+      {
+        "name": "setup",
+        "color": "0E8A16"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 1 — Core Infrastructure",
@@ -20,21 +206,35 @@
     "actualStart": "2026-01-06",
     "actualEnd": "2026-01-07",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Project scaffolding — TypeScript, ESM, package.json, tsconfig",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 1 — Core Infrastructure",
+      "Estimated Start": "2026-01-06",
+      "Estimated End": "2026-01-07",
+      "Actual Start": "2026-01-06",
+      "Actual End": "2026-01-07"
+    }
   },
   {
-    "id": "PVTI_002",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwaY",
     "title": "Environment config with Zod validation and .env loading",
-    "number": 2,
+    "number": 8,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/2",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-09T14:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/8",
+    "createdAt": "2026-03-26T21:07:39Z",
+    "closedAt": "2026-03-26T21:07:44Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "setup", "color": "0E8A16"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "setup",
+        "color": "0E8A16"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 1 — Core Infrastructure",
@@ -43,21 +243,35 @@
     "actualStart": "2026-01-08",
     "actualEnd": "2026-01-09",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Environment config with Zod validation and .env loading",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 1 — Core Infrastructure",
+      "Estimated Start": "2026-01-08",
+      "Estimated End": "2026-01-09",
+      "Actual Start": "2026-01-08",
+      "Actual End": "2026-01-09"
+    }
   },
   {
-    "id": "PVTI_003",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwb8",
     "title": "Structured logging with Pino + pretty-print for CLI",
-    "number": 3,
+    "number": 9,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/3",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-10T11:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/9",
+    "createdAt": "2026-03-26T21:07:46Z",
+    "closedAt": "2026-03-26T21:07:50Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "setup", "color": "0E8A16"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "setup",
+        "color": "0E8A16"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 1 — Core Infrastructure",
@@ -66,21 +280,35 @@
     "actualStart": "2026-01-10",
     "actualEnd": "2026-01-10",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Structured logging with Pino + pretty-print for CLI",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 1 — Core Infrastructure",
+      "Estimated Start": "2026-01-10",
+      "Estimated End": "2026-01-10",
+      "Actual Start": "2026-01-10",
+      "Actual End": "2026-01-10"
+    }
   },
   {
-    "id": "PVTI_004",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwc4",
     "title": "CLI entry point with arg parsing (--dry-run, --start-date, --end-date)",
-    "number": 4,
+    "number": 10,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/4",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-14T17:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/10",
+    "createdAt": "2026-03-26T21:07:52Z",
+    "closedAt": "2026-03-26T21:07:57Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 1 — Core Infrastructure",
@@ -89,21 +317,35 @@
     "actualStart": "2026-01-11",
     "actualEnd": "2026-01-14",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "CLI entry point with arg parsing (--dry-run, --start-date, --end-date)",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 1 — Core Infrastructure",
+      "Estimated Start": "2026-01-11",
+      "Estimated End": "2026-01-13",
+      "Actual Start": "2026-01-11",
+      "Actual End": "2026-01-14"
+    }
   },
   {
-    "id": "PVTI_005",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwe8",
     "title": "Utility modules — string normalization, name parser, address normalizer",
-    "number": 5,
+    "number": 11,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/5",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-17T15:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/11",
+    "createdAt": "2026-03-26T21:07:58Z",
+    "closedAt": "2026-03-26T21:08:03Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 1 — Core Infrastructure",
@@ -112,21 +354,35 @@
     "actualStart": "2026-01-14",
     "actualEnd": "2026-01-17",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Utility modules — string normalization, name parser, address normalizer",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 1 — Core Infrastructure",
+      "Estimated Start": "2026-01-14",
+      "Estimated End": "2026-01-16",
+      "Actual Start": "2026-01-14",
+      "Actual End": "2026-01-17"
+    }
   },
   {
-    "id": "PVTI_006",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwgQ",
     "title": "Unit tests for all utility modules (Vitest)",
-    "number": 6,
+    "number": 12,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/6",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-21T16:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/12",
+    "createdAt": "2026-03-26T21:08:05Z",
+    "closedAt": "2026-03-26T21:08:10Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "testing", "color": "BFD4F2"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "testing",
+        "color": "BFD4F2"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 1 — Core Infrastructure",
@@ -135,21 +391,39 @@
     "actualStart": "2026-01-17",
     "actualEnd": "2026-01-21",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Unit tests for all utility modules (Vitest)",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 1 — Core Infrastructure",
+      "Estimated Start": "2026-01-17",
+      "Estimated End": "2026-01-20",
+      "Actual Start": "2026-01-17",
+      "Actual End": "2026-01-21"
+    }
   },
   {
-    "id": "PVTI_007",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwiU",
     "title": "QuickBase REST client — token auth, query, runReport, pagination",
-    "number": 7,
+    "number": 13,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/7",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-24T17:30:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/13",
+    "createdAt": "2026-03-26T21:08:12Z",
+    "closedAt": "2026-03-26T21:08:17Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "api", "color": "D93F0B"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "api",
+        "color": "D93F0B"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 2 — API Integration",
@@ -158,21 +432,35 @@
     "actualStart": "2026-01-21",
     "actualEnd": "2026-01-24",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "QuickBase REST client — token auth, query, runReport, pagination",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 2 — API Integration",
+      "Estimated Start": "2026-01-21",
+      "Estimated End": "2026-01-23",
+      "Actual Start": "2026-01-21",
+      "Actual End": "2026-01-24"
+    }
   },
   {
-    "id": "PVTI_008",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwkE",
     "title": "QuickBase record flattener — nested field structure to key-value",
-    "number": 8,
+    "number": 14,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/8",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-01-27T12:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/14",
+    "createdAt": "2026-03-26T21:08:18Z",
+    "closedAt": "2026-03-26T21:08:23Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 2 — API Integration",
@@ -181,21 +469,39 @@
     "actualStart": "2026-01-24",
     "actualEnd": "2026-01-27",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "QuickBase record flattener — nested field structure to key-value",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 2 — API Integration",
+      "Estimated Start": "2026-01-24",
+      "Estimated End": "2026-01-27",
+      "Actual Start": "2026-01-24",
+      "Actual End": "2026-01-27"
+    }
   },
   {
-    "id": "PVTI_009",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwmc",
     "title": "Salesforce JWT Bearer auth flow (RS256 private key signing)",
-    "number": 9,
+    "number": 15,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/9",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-02-04T18:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/15",
+    "createdAt": "2026-03-26T21:08:25Z",
+    "closedAt": "2026-03-26T21:08:29Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "api", "color": "D93F0B"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "api",
+        "color": "D93F0B"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P0 - Critical",
     "phase": "Phase 2 — API Integration",
@@ -204,21 +510,39 @@
     "actualStart": "2026-01-27",
     "actualEnd": "2026-02-04",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Salesforce JWT Bearer auth flow (RS256 private key signing)",
+      "Status": "Done",
+      "Priority": "P0 - Critical",
+      "Phase": "Phase 2 — API Integration",
+      "Estimated Start": "2026-01-27",
+      "Estimated End": "2026-01-30",
+      "Actual Start": "2026-01-27",
+      "Actual End": "2026-02-04"
+    }
   },
   {
-    "id": "PVTI_010",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwo4",
     "title": "Salesforce SOQL query client with pagination and CRUD operations",
-    "number": 10,
+    "number": 16,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/10",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-02-07T16:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/16",
+    "createdAt": "2026-03-26T21:08:31Z",
+    "closedAt": "2026-03-26T21:08:35Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "api", "color": "D93F0B"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "api",
+        "color": "D93F0B"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 2 — API Integration",
@@ -227,21 +551,39 @@
     "actualStart": "2026-02-04",
     "actualEnd": "2026-02-07",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Salesforce SOQL query client with pagination and CRUD operations",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 2 — API Integration",
+      "Estimated Start": "2026-01-31",
+      "Estimated End": "2026-02-04",
+      "Actual Start": "2026-02-04",
+      "Actual End": "2026-02-07"
+    }
   },
   {
-    "id": "PVTI_011",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwqE",
     "title": "Salesforce batch composite API — bulk create (200 records/request)",
-    "number": 11,
+    "number": 17,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/11",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-02-11T15:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/17",
+    "createdAt": "2026-03-26T21:08:37Z",
+    "closedAt": "2026-03-26T21:08:42Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "api", "color": "D93F0B"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "api",
+        "color": "D93F0B"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 2 — API Integration",
@@ -250,21 +592,35 @@
     "actualStart": "2026-02-07",
     "actualEnd": "2026-02-11",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Salesforce batch composite API — bulk create (200 records/request)",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 2 — API Integration",
+      "Estimated Start": "2026-02-05",
+      "Estimated End": "2026-02-07",
+      "Actual Start": "2026-02-07",
+      "Actual End": "2026-02-11"
+    }
   },
   {
-    "id": "PVTI_012",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwr0",
     "title": "Shared API types — SFAccount, SFContact, SFLicense, QBRecord interfaces",
-    "number": 12,
+    "number": 18,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/12",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-02-12T11:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/18",
+    "createdAt": "2026-03-26T21:08:44Z",
+    "closedAt": "2026-03-26T21:08:49Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 2 — API Integration",
@@ -273,21 +629,39 @@
     "actualStart": "2026-02-11",
     "actualEnd": "2026-02-12",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Shared API types — SFAccount, SFContact, SFLicense, QBRecord interfaces",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 2 — API Integration",
+      "Estimated Start": "2026-02-10",
+      "Estimated End": "2026-02-11",
+      "Actual Start": "2026-02-11",
+      "Actual End": "2026-02-12"
+    }
   },
   {
-    "id": "PVTI_013",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwus",
     "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring",
-    "number": 13,
+    "number": 19,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/13",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-02-25T17:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/19",
+    "createdAt": "2026-03-26T21:08:51Z",
+    "closedAt": "2026-03-26T21:08:55Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "core", "color": "5319E7"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "core",
+        "color": "5319E7"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P0 - Critical",
     "phase": "Phase 3 — Sync Engine",
@@ -296,21 +670,39 @@
     "actualStart": "2026-02-12",
     "actualEnd": "2026-02-25",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring",
+      "Status": "Done",
+      "Priority": "P0 - Critical",
+      "Phase": "Phase 3 — Sync Engine",
+      "Estimated Start": "2026-02-12",
+      "Estimated End": "2026-02-19",
+      "Actual Start": "2026-02-12",
+      "Actual End": "2026-02-25"
+    }
   },
   {
-    "id": "PVTI_014",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwwM",
     "title": "Sync orchestrator — multi-phase execution, dedup, batch deferral",
-    "number": 14,
+    "number": 20,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/14",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-03-07T18:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/20",
+    "createdAt": "2026-03-26T21:08:56Z",
+    "closedAt": "2026-03-26T21:09:01Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "core", "color": "5319E7"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "core",
+        "color": "5319E7"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P1 - High",
     "phase": "Phase 3 — Sync Engine",
@@ -319,21 +711,35 @@
     "actualStart": "2026-02-20",
     "actualEnd": "2026-03-07",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Sync orchestrator — multi-phase execution, dedup, batch deferral",
+      "Status": "Done",
+      "Priority": "P1 - High",
+      "Phase": "Phase 3 — Sync Engine",
+      "Estimated Start": "2026-02-20",
+      "Estimated End": "2026-03-03",
+      "Actual Start": "2026-02-20",
+      "Actual End": "2026-03-07"
+    }
   },
   {
-    "id": "PVTI_015",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwxI",
     "title": "Asset mapper — product type mapping, license status, BDOM extraction",
-    "number": 15,
+    "number": 21,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/15",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-03-11T14:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/21",
+    "createdAt": "2026-03-26T21:09:02Z",
+    "closedAt": "2026-03-26T21:09:08Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 3 — Sync Engine",
@@ -342,21 +748,35 @@
     "actualStart": "2026-03-07",
     "actualEnd": "2026-03-11",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Asset mapper — product type mapping, license status, BDOM extraction",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 3 — Sync Engine",
+      "Estimated Start": "2026-03-04",
+      "Estimated End": "2026-03-06",
+      "Actual Start": "2026-03-07",
+      "Actual End": "2026-03-11"
+    }
   },
   {
-    "id": "PVTI_016",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobwzQ",
     "title": "Sync logger — outcome collection, typed arrays, error aggregation",
-    "number": 16,
+    "number": 22,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/16",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-03-14T16:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/22",
+    "createdAt": "2026-03-26T21:09:09Z",
+    "closedAt": "2026-03-26T21:09:14Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P2 - Medium",
     "phase": "Phase 3 — Sync Engine",
@@ -365,21 +785,39 @@
     "actualStart": "2026-03-11",
     "actualEnd": "2026-03-14",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Sync logger — outcome collection, typed arrays, error aggregation",
+      "Status": "Done",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 3 — Sync Engine",
+      "Estimated Start": "2026-03-07",
+      "Estimated End": "2026-03-11",
+      "Actual Start": "2026-03-11",
+      "Actual End": "2026-03-14"
+    }
   },
   {
-    "id": "PVTI_017",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw0w",
     "title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts",
-    "number": 17,
+    "number": 23,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/17",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/23",
+    "createdAt": "2026-03-26T21:09:16Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "core", "color": "5319E7"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "core",
+        "color": "5319E7"
+      }
+    ],
+    "assignees": [],
     "status": "In Progress",
     "priority": "P1 - High",
     "phase": "Phase 3 — Sync Engine",
@@ -388,21 +826,38 @@
     "actualStart": "2026-03-14",
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Partner sync flow — enrich from QB, match/create SF accounts + contacts",
+      "Status": "In Progress",
+      "Priority": "P1 - High",
+      "Phase": "Phase 3 — Sync Engine",
+      "Estimated Start": "2026-03-12",
+      "Estimated End": "2026-03-18",
+      "Actual Start": "2026-03-14"
+    }
   },
   {
-    "id": "PVTI_018",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw2g",
     "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts",
-    "number": 18,
+    "number": 24,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/18",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/24",
+    "createdAt": "2026-03-26T21:09:21Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "core", "color": "5319E7"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "core",
+        "color": "5319E7"
+      }
+    ],
+    "assignees": [],
     "status": "In Progress",
     "priority": "P1 - High",
     "phase": "Phase 3 — Sync Engine",
@@ -411,44 +866,73 @@
     "actualStart": "2026-03-20",
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts",
+      "Status": "In Progress",
+      "Priority": "P1 - High",
+      "Phase": "Phase 3 — Sync Engine",
+      "Estimated Start": "2026-03-19",
+      "Estimated End": "2026-03-25",
+      "Actual Start": "2026-03-20"
+    }
   },
   {
-    "id": "PVTI_019",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw30",
     "title": "Asset sync flow — find QB assets, batch-create SF Asset records",
-    "number": 19,
+    "number": 25,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/19",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/25",
+    "createdAt": "2026-03-26T21:09:25Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Blocked",
     "priority": "P1 - High",
-    "phase": "Phase 3 — Sync Engine",
+    "phase": "Phase 3 �� Sync Engine",
     "estimatedStart": "2026-03-26",
     "estimatedEnd": "2026-03-31",
     "actualStart": null,
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Asset sync flow — find QB assets, batch-create SF Asset records",
+      "Status": "Blocked",
+      "Priority": "P1 - High",
+      "Phase": "Phase 3 �� Sync Engine",
+      "Estimated Start": "2026-03-26",
+      "Estimated End": "2026-03-31"
+    }
   },
   {
-    "id": "PVTI_020",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw5E",
     "title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks",
-    "number": 20,
+    "number": 26,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/20",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/26",
+    "createdAt": "2026-03-26T21:09:30Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}, {"name": "reporting", "color": "FBCA04"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      },
+      {
+        "name": "reporting",
+        "color": "FBCA04"
+      }
+    ],
+    "assignees": [],
     "status": "In Progress",
     "priority": "P2 - Medium",
     "phase": "Phase 4 — Reporting & Polish",
@@ -457,21 +941,34 @@
     "actualStart": "2026-03-21",
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Excel report generator — 10-sheet workbook with SF Lightning hyperlinks",
+      "Status": "In Progress",
+      "Priority": "P2 - Medium",
+      "Phase": "Phase 4 — Reporting & Polish",
+      "Estimated Start": "2026-03-19",
+      "Estimated End": "2026-03-26",
+      "Actual Start": "2026-03-21"
+    }
   },
   {
-    "id": "PVTI_021",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw6U",
     "title": "API error parser — translate SF/QB errors to plain English",
-    "number": 21,
+    "number": 27,
     "type": "issue",
     "state": "CLOSED",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/21",
-    "createdAt": "2026-01-06T09:00:00Z",
-    "closedAt": "2026-03-18T13:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/27",
+    "createdAt": "2026-03-26T21:09:35Z",
+    "closedAt": "2026-03-26T21:09:41Z",
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Done",
     "priority": "P3 - Low",
     "phase": "Phase 4 — Reporting & Polish",
@@ -480,21 +977,35 @@
     "actualStart": "2026-03-14",
     "actualEnd": "2026-03-18",
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "API error parser — translate SF/QB errors to plain English",
+      "Status": "Done",
+      "Priority": "P3 - Low",
+      "Phase": "Phase 4 — Reporting & Polish",
+      "Estimated Start": "2026-03-14",
+      "Estimated End": "2026-03-17",
+      "Actual Start": "2026-03-14",
+      "Actual End": "2026-03-18"
+    }
   },
   {
-    "id": "PVTI_022",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw8A",
     "title": "Dry-run mode — full execution without SF writes",
-    "number": 22,
+    "number": 28,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/22",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/28",
+    "createdAt": "2026-03-26T21:09:43Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "feature", "color": "1D76DB"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "feature",
+        "color": "1D76DB"
+      }
+    ],
+    "assignees": [],
     "status": "Todo",
     "priority": "P3 - Low",
     "phase": "Phase 4 — Reporting & Polish",
@@ -503,21 +1014,33 @@
     "actualStart": null,
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Dry-run mode — full execution without SF writes",
+      "Status": "Todo",
+      "Priority": "P3 - Low",
+      "Phase": "Phase 4 — Reporting & Polish",
+      "Estimated Start": "2026-03-27",
+      "Estimated End": "2026-03-28"
+    }
   },
   {
-    "id": "PVTI_023",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw9U",
     "title": "End-to-end sandbox testing with production-like data",
-    "number": 23,
+    "number": 29,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/23",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/29",
+    "createdAt": "2026-03-26T21:09:47Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "testing", "color": "BFD4F2"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "testing",
+        "color": "BFD4F2"
+      }
+    ],
+    "assignees": [],
     "status": "Todo",
     "priority": "P3 - Low",
     "phase": "Phase 4 — Reporting & Polish",
@@ -526,21 +1049,33 @@
     "actualStart": null,
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "End-to-end sandbox testing with production-like data",
+      "Status": "Todo",
+      "Priority": "P3 - Low",
+      "Phase": "Phase 4 — Reporting & Polish",
+      "Estimated Start": "2026-03-29",
+      "Estimated End": "2026-04-02"
+    }
   },
   {
-    "id": "PVTI_024",
+    "id": "PVTI_lAHOCfCR9s4BSzkJzgobw-U",
     "title": "Documentation — README, .env.example, setup instructions",
-    "number": 24,
+    "number": 30,
     "type": "issue",
     "state": "OPEN",
-    "url": "https://github.com/QuiQuig/partner-account-sync/issues/24",
-    "createdAt": "2026-01-06T09:00:00Z",
+    "url": "https://github.com/QuiQuig/partner-account-sync/issues/30",
+    "createdAt": "2026-03-26T21:09:51Z",
     "closedAt": null,
     "merged": false,
     "mergedAt": null,
-    "labels": [{"name": "docs", "color": "0075CA"}],
-    "assignees": [{"login": "QuiQuig", "avatarUrl": ""}],
+    "labels": [
+      {
+        "name": "docs",
+        "color": "0075CA"
+      }
+    ],
+    "assignees": [],
     "status": "Todo",
     "priority": "P3 - Low",
     "phase": "Phase 4 — Reporting & Polish",
@@ -549,6 +1084,13 @@
     "actualStart": null,
     "actualEnd": null,
     "effort": null,
-    "fields": {}
+    "fields": {
+      "Title": "Documentation — README, .env.example, setup instructions",
+      "Status": "Todo",
+      "Priority": "P3 - Low",
+      "Phase": "Phase 4 — Reporting & Polish",
+      "Estimated Start": "2026-04-03",
+      "Estimated End": "2026-04-04"
+    }
   }
 ]

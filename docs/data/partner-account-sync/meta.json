@@ -5,43 +5,173 @@
   "repo": "partner-account-sync",
   "projectNumber": 2,
   "projectTitle": "Partner Account Sync",
-  "projectDescription": "Sync partner and customer account data between QuickBase and Salesforce",
+  "projectDescription": null,
   "repoMeta": {
     "fullName": "QuiQuig/partner-account-sync",
-    "description": "TypeScript CLI tool for syncing partner/customer accounts between QuickBase and Salesforce",
+    "description": null,
     "openIssues": 7,
     "stars": 0,
-    "updatedAt": "2026-03-25T14:08:00Z"
+    "updatedAt": "2026-03-20T21:48:34Z"
   },
   "fields": [
-    { "name": "Title", "type": "TITLE" },
-    { "name": "Assignees", "type": "ASSIGNEES" },
-    { "name": "Status", "type": "SINGLE_SELECT", "options": [{"id": "f75ad846", "name": "Backlog"}, {"id": "a1b2c3d4", "name": "Todo"}, {"id": "47fc9ee4", "name": "In Progress"}, {"id": "e5f6a7b8", "name": "Blocked"}, {"id": "98236657", "name": "Done"}] },
-    { "name": "Priority", "type": "SINGLE_SELECT", "options": [{"id": "3d78d8eb", "name": "P0 - Critical"}, {"id": "60831119", "name": "P1 - High"}, {"id": "dfc7373b", "name": "P2 - Medium"}, {"id": "4c3d3e24", "name": "P3 - Low"}] },
-    { "name": "Labels", "type": "LABELS" },
-    { "name": "Estimated Start", "type": "DATE" },
-    { "name": "Estimated End", "type": "DATE" },
-    { "name": "Actual Start", "type": "DATE" },
-    { "name": "Actual End", "type": "DATE" }
+    {
+      "name": "Title",
+      "type": "TITLE"
+    },
+    {
+      "name": "Assignees",
+      "type": "ASSIGNEES"
+    },
+    {
+      "name": "Status",
+      "type": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "f8f8308e",
+          "name": "Todo"
+        },
+        {
+          "id": "c56ce44e",
+          "name": "In Progress"
+        },
+        {
+          "id": "6bb692ad",
+          "name": "Blocked"
+        },
+        {
+          "id": "776bd3f7",
+          "name": "Done"
+        }
+      ]
+    },
+    {
+      "name": "Labels",
+      "type": "LABELS"
+    },
+    {
+      "name": "Linked pull requests",
+      "type": "LINKED_PULL_REQUESTS"
+    },
+    {
+      "name": "Milestone",
+      "type": "MILESTONE"
+    },
+    {
+      "name": "Repository",
+      "type": "REPOSITORY"
+    },
+    {
+      "name": "Reviewers",
+      "type": "REVIEWERS"
+    },
+    {
+      "name": "Parent issue",
+      "type": "PARENT_ISSUE"
+    },
+    {
+      "name": "Sub-issues progress",
+      "type": "SUB_ISSUES_PROGRESS"
+    },
+    {
+      "name": "Estimated Start",
+      "type": "DATE"
+    },
+    {
+      "name": "Estimated End",
+      "type": "DATE"
+    },
+    {
+      "name": "Actual Start",
+      "type": "DATE"
+    },
+    {
+      "name": "Actual End",
+      "type": "DATE"
+    },
+    {
+      "name": "Priority",
+      "type": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "3d78d8eb",
+          "name": "P0 - Critical"
+        },
+        {
+          "id": "60831119",
+          "name": "P1 - High"
+        },
+        {
+          "id": "dfc7373b",
+          "name": "P2 - Medium"
+        },
+        {
+          "id": "4c3d3e24",
+          "name": "P3 - Low"
+        }
+      ]
+    },
+    {
+      "name": "Phase",
+      "type": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "1519af47",
+          "name": "Phase 1 — Core Infrastructure"
+        },
+        {
+          "id": "58f13a51",
+          "name": "Phase 2 — API Integration"
+        },
+        {
+          "id": "a27939d4",
+          "name": "Phase 3 — Sync Engine"
+        },
+        {
+          "id": "af2c598f",
+          "name": "Phase 4 — Reporting & Polish"
+        }
+      ]
+    }
   ],
   "stats": {
-    "total": 24,
-    "done": 17,
+    "total": 30,
+    "done": 23,
     "inProgress": 3,
     "blocked": 1,
     "todo": 3
   },
   "phases": {
-    "Phase 1 — Core Infrastructure": { "total": 6, "done": 6 },
-    "Phase 2 — API Integration": { "total": 6, "done": 6 },
-    "Phase 3 — Sync Engine": { "total": 7, "done": 4 },
-    "Phase 4 — Reporting & Polish": { "total": 5, "done": 1 }
+    "Unassigned": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 1 — Core Infrastructure": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 2 — API Integration": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 3 — Sync Engine": {
+      "total": 6,
+      "done": 4
+    },
+    "Phase 3 �� Sync Engine": {
+      "total": 1,
+      "done": 0
+    },
+    "Phase 4 — Reporting & Polish": {
+      "total": 5,
+      "done": 1
+    }
   },
   "priorities": {
-    "P0 - Critical": 2,
-    "P1 - High": 9,
+    "None": 6,
+    "P1 - High": 10,
     "P2 - Medium": 8,
-    "P3 - Low": 5
+    "P0 - Critical": 2,
+    "P3 - Low": 4
   },
-  "fetchedAt": "2026-03-26T12:00:00Z"
+  "fetchedAt": "2026-03-27T20:10:17.378Z"
 }
