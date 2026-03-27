@@ -424,7 +424,7 @@
     "event": "project_v2_item_status_changed",
     "issue": {
       "number": 19,
-      "title": "Account matcher ��� in-memory indexes, 9-tier match priority, fuzzy scoring"
+      "title": "Account matcher — in-memory indexes, 9-tier match priority, fuzzy scoring"
     },
     "actor": "QuiQuig",
     "createdAt": "2026-03-26T21:08:52Z"
