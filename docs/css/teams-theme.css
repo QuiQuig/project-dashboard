@@ -503,6 +503,105 @@ body {
   flex-shrink: 0;
 }
 
+/* ---- Scrollable Sections ---- */
+.scrollable-section {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+/* ---- Metric Card Popover ---- */
+.metric-card {
+  position: relative;
+  transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.metric-card:active {
+  transform: scale(0.98);
+}
+
+.metric-popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+  max-height: 320px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-dialog);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.metric-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--border-default);
+  font-weight: 600;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.metric-popover-close {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.metric-popover-close:hover {
+  color: var(--text-primary);
+}
+
+.metric-popover-list {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.metric-popover-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 6px var(--space-md);
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: background 0.1s;
+}
+
+.metric-popover-item:last-child {
+  border-bottom: none;
+}
+
+.metric-popover-item:hover {
+  background: var(--bg-surface-hover);
+}
+
+.metric-popover-number {
+  color: var(--color-info);
+  font-weight: 600;
+  flex-shrink: 0;
+  min-width: 32px;
+}
+
+.metric-popover-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* ---- Loading / Empty States ---- */
 .loading {
   display: flex;

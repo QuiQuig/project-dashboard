@@ -10,6 +10,10 @@ const PriorityChart = (() => {
     'Medium': '#FFB900',
     'Low': '#107C10',
     'None': '#8A8886',
+    'P0 - Critical': '#D13438',
+    'P1 - High': '#FF8C00',
+    'P2 - Medium': '#FFB900',
+    'P3 - Low': '#107C10',
   };
 
   function render(meta) {

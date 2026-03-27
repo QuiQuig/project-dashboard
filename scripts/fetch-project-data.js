@@ -32,9 +32,14 @@ function graphql(query, variables = {}) {
       res.on('end', () => {
         try {
           const parsed = JSON.parse(data);
-          if (parsed.errors) {
+          if (parsed.errors && !parsed.data) {
             reject(new Error(JSON.stringify(parsed.errors, null, 2)));
+          } else if (!parsed.data) {
+            reject(new Error(`Unexpected response: ${data.slice(0, 500)}`));
           } else {
+            if (parsed.errors) {
+              console.warn('GraphQL warnings:', JSON.stringify(parsed.errors, null, 2));
+            }
             resolve(parsed.data);
           }
         } catch (e) {

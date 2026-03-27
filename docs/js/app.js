@@ -42,7 +42,7 @@ const App = (() => {
         `Last updated: ${new Date(meta.fetchedAt).toLocaleString()}`;
 
       // Render all components
-      StatusOverview.render(meta);
+      StatusOverview.render(meta, issues);
       TimelineHealth.render(issues);
       PhaseProgress.render(meta);
       ActivityFeed.render(activity);

@@ -20,12 +20,11 @@ const IssueTable = (() => {
 
   function priorityBadge(priority) {
     if (!priority) return '';
-    const cls = {
-      'Urgent': 'badge-urgent',
-      'High': 'badge-high',
-      'Medium': 'badge-medium',
-      'Low': 'badge-low',
-    }[priority] || '';
+    let cls = '';
+    if (priority.includes('Critical') || priority.includes('Urgent')) cls = 'badge-urgent';
+    else if (priority.includes('High') || priority.startsWith('P1')) cls = 'badge-high';
+    else if (priority.includes('Medium') || priority.startsWith('P2')) cls = 'badge-medium';
+    else if (priority.includes('Low') || priority.startsWith('P3')) cls = 'badge-low';
     return `<span class="badge ${cls}">${escapeHtml(priority)}</span>`;
   }
 
