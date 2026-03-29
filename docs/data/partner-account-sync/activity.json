@@ -304,7 +304,7 @@
     "event": "labeled",
     "issue": {
       "number": 22,
-      "title": "Sync logger ��� outcome collection, typed arrays, error aggregation"
+      "title": "Sync logger — outcome collection, typed arrays, error aggregation"
     },
     "actor": "QuiQuig",
     "createdAt": "2026-03-26T21:09:11Z"
