@@ -17,7 +17,7 @@ const PhaseProgress = (() => {
       return `
         <div class="phase-item">
           <div class="phase-header">
-            <span class="phase-name">${escapeHtml(name)}</span>
+            <span class="phase-name">${DashboardUtils.escapeHtml(name)}</span>
             <span class="phase-count">${data.done}/${data.total} (${pct}%)</span>
           </div>
           <div class="phase-bar">
@@ -26,12 +26,6 @@ const PhaseProgress = (() => {
         </div>
       `;
     }).join('');
-  }
-
-  function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
   }
 
   return { render };

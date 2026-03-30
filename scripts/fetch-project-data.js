@@ -80,10 +80,26 @@ function restApi(endpoint) {
   });
 }
 
-async function fetchProjectItems(owner, projectNumber) {
-  const query = `
+async function restApiPaginated(endpoint, maxPages = 5) {
+  let allResults = [];
+  let url = endpoint.includes('?') ? `${endpoint}&per_page=100` : `${endpoint}?per_page=100`;
+  let page = 1;
+
+  while (page <= maxPages) {
+    const pageUrl = `${url}&page=${page}`;
+    const data = await restApi(pageUrl);
+    if (!Array.isArray(data) || data.length === 0) break;
+    allResults = allResults.concat(data);
+    if (data.length < 100) break;
+    page++;
+  }
+  return allResults;
+}
+
+function buildProjectQuery(ownerType) {
+  return `
     query($owner: String!, $number: Int!, $cursor: String) {
-      user(login: $owner) {
+      ${ownerType}(login: $owner) {
         projectV2(number: $number) {
           id
           title
@@ -182,6 +198,10 @@ async function fetchProjectItems(owner, projectNumber) {
       }
     }
   `;
+}
+
+async function _fetchProjectItems(owner, projectNumber, ownerType) {
+  const query = buildProjectQuery(ownerType);
 
   let allItems = [];
   let cursor = null;
@@ -190,7 +210,7 @@ async function fetchProjectItems(owner, projectNumber) {
 
   do {
     const data = await graphql(query, { owner, number: projectNumber, cursor });
-    const project = data.user.projectV2;
+    const project = data[ownerType].projectV2;
 
     if (!projectMeta) {
       projectMeta = {
@@ -207,6 +227,15 @@ async function fetchProjectItems(owner, projectNumber) {
   } while (cursor);
 
   return { projectMeta, fields, items: allItems };
+}
+
+async function fetchProjectItems(owner, projectNumber) {
+  try {
+    return await _fetchProjectItems(owner, projectNumber, 'user');
+  } catch (err) {
+    console.log(`  user query failed, trying organization...`);
+    return await _fetchProjectItems(owner, projectNumber, 'organization');
+  }
 }
 
 function parseFieldValues(item) {
@@ -272,8 +301,8 @@ async function fetchActivity(owner, repo) {
   const sinceStr = since.toISOString();
 
   const [events, commits] = await Promise.all([
-    restApi(`/repos/${owner}/${repo}/issues/events?per_page=50`).catch(() => []),
-    restApi(`/repos/${owner}/${repo}/commits?since=${sinceStr}&per_page=50`).catch(() => []),
+    restApiPaginated(`/repos/${owner}/${repo}/issues/events`, 3).catch(() => []),
+    restApiPaginated(`/repos/${owner}/${repo}/commits?since=${sinceStr}`, 3).catch(() => []),
   ]);
 
   const recentEvents = (Array.isArray(events) ? events : [])

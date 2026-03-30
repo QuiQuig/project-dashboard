@@ -3,6 +3,7 @@
  */
 const GanttChart = (() => {
   let chart = null;
+  let resizeHandler = null;
 
   function render(issues) {
     const container = document.getElementById("ganttChart");
@@ -167,7 +168,9 @@ const GanttChart = (() => {
       ],
     });
 
-    window.addEventListener("resize", () => chart && chart.resize());
+    if (resizeHandler) window.removeEventListener("resize", resizeHandler);
+    resizeHandler = () => chart && chart.resize();
+    window.addEventListener("resize", resizeHandler);
   }
 
   return { render };

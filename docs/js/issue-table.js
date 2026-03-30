@@ -5,6 +5,7 @@ const IssueTable = (() => {
   let allIssues = [];
   let sortField = 'number';
   let sortAsc = true;
+  let initialized = false;
 
   function statusBadge(status) {
     if (!status) return '';
@@ -15,7 +16,7 @@ const IssueTable = (() => {
       'Blocked': 'badge-blocked',
       'Backlog': 'badge-backlog',
     }[status] || 'badge-todo';
-    return `<span class="badge ${cls}">${escapeHtml(status)}</span>`;
+    return `<span class="badge ${cls}">${DashboardUtils.escapeHtml(status)}</span>`;
   }
 
   function priorityBadge(priority) {
@@ -25,7 +26,7 @@ const IssueTable = (() => {
     else if (priority.includes('High') || priority.startsWith('P1')) cls = 'badge-high';
     else if (priority.includes('Medium') || priority.startsWith('P2')) cls = 'badge-medium';
     else if (priority.includes('Low') || priority.startsWith('P3')) cls = 'badge-low';
-    return `<span class="badge ${cls}">${escapeHtml(priority)}</span>`;
+    return `<span class="badge ${cls}">${DashboardUtils.escapeHtml(priority)}</span>`;
   }
 
   function getValue(issue, field) {
@@ -77,11 +78,11 @@ const IssueTable = (() => {
     tbody.innerHTML = sorted.map(issue => `
       <tr>
         <td><a href="${issue.url}" target="_blank" rel="noopener">#${issue.number}</a></td>
-        <td>${escapeHtml(issue.title)}</td>
+        <td>${DashboardUtils.escapeHtml(issue.title)}</td>
         <td>${statusBadge(issue.status)}</td>
         <td>${priorityBadge(issue.priority)}</td>
-        <td>${escapeHtml(issue.phase || '—')}</td>
-        <td>${(issue.assignees || []).map(a => escapeHtml(a.login)).join(', ') || '—'}</td>
+        <td>${DashboardUtils.escapeHtml(issue.phase || '—')}</td>
+        <td>${(issue.assignees || []).map(a => DashboardUtils.escapeHtml(a.login)).join(', ') || '—'}</td>
       </tr>
     `).join('');
   }
@@ -92,11 +93,11 @@ const IssueTable = (() => {
 
     const statusSelect = document.getElementById('filterStatus');
     statusSelect.innerHTML = '<option value="">All Statuses</option>' +
-      statuses.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+      statuses.map(s => `<option value="${DashboardUtils.escapeHtml(s)}">${DashboardUtils.escapeHtml(s)}</option>`).join('');
 
     const prioritySelect = document.getElementById('filterPriority');
     prioritySelect.innerHTML = '<option value="">All Priorities</option>' +
-      priorities.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
+      priorities.map(p => `<option value="${DashboardUtils.escapeHtml(p)}">${DashboardUtils.escapeHtml(p)}</option>`).join('');
   }
 
   function initSort() {
@@ -118,21 +119,19 @@ const IssueTable = (() => {
     });
   }
 
-  function render(issues) {
-    allIssues = issues;
-    populateFilters(issues);
-    renderRows();
-
-    // Bind filter change
+  function init() {
+    if (initialized) return;
+    initialized = true;
     document.getElementById('filterStatus').addEventListener('change', renderRows);
     document.getElementById('filterPriority').addEventListener('change', renderRows);
     initSort();
   }
 
-  function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str || '';
-    return div.innerHTML;
+  function render(issues) {
+    allIssues = issues;
+    populateFilters(issues);
+    init();
+    renderRows();
   }
 
   return { render };

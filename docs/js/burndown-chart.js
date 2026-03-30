@@ -3,24 +3,37 @@
  */
 const BurndownChart = (() => {
   let chart = null;
+  let resizeHandler = null;
 
   function computeBurndown(issues) {
-    // Find the date range from issues
-    const allDates = issues
-      .filter(i => i.createdAt)
-      .map(i => new Date(i.createdAt));
+    if (issues.length === 0) return null;
 
-    if (allDates.length === 0) return null;
+    // Derive timeline from estimated dates, falling back to createdAt
+    const startCandidates = issues
+      .map(i => i.estimatedStart || i.createdAt)
+      .filter(Boolean)
+      .map(d => new Date(d));
+    const endCandidates = issues
+      .map(i => i.estimatedEnd)
+      .filter(Boolean)
+      .map(d => new Date(d));
 
-    const startDate = new Date(Math.min(...allDates));
-    const endDate = new Date(); // today
+    if (startCandidates.length === 0) return null;
+
+    const startDate = new Date(Math.min(...startCandidates));
+    // Use the latest estimated end, but extend to today if we're past it or no end dates exist
+    const latestEnd = endCandidates.length > 0 ? new Date(Math.max(...endCandidates)) : new Date();
+    const endDate = new Date(Math.max(latestEnd.getTime(), Date.now()));
     const totalItems = issues.length;
 
-    // Build daily closure counts
+    // Build daily completion counts using project dates (actualEnd or estimatedEnd for closed issues)
     const closedByDate = {};
     for (const issue of issues) {
-      if (issue.closedAt) {
-        const d = issue.closedAt.slice(0, 10);
+      const doneDate = issue.actualEnd
+        || ((issue.state === 'CLOSED' || issue.status === 'Done') && issue.estimatedEnd)
+        || issue.closedAt;
+      if (doneDate) {
+        const d = doneDate.slice(0, 10);
         closedByDate[d] = (closedByDate[d] || 0) + 1;
       }
     }
@@ -116,7 +129,9 @@ const BurndownChart = (() => {
       ],
     });
 
-    window.addEventListener('resize', () => chart && chart.resize());
+    if (resizeHandler) window.removeEventListener('resize', resizeHandler);
+    resizeHandler = () => chart && chart.resize();
+    window.addEventListener('resize', resizeHandler);
   }
 
   return { render };

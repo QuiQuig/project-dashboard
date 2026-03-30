@@ -3,6 +3,7 @@
  */
 const PriorityChart = (() => {
   let chart = null;
+  let resizeHandler = null;
 
   const colorMap = {
     'Urgent': '#D13438',
@@ -66,7 +67,9 @@ const PriorityChart = (() => {
       }],
     });
 
-    window.addEventListener('resize', () => chart && chart.resize());
+    if (resizeHandler) window.removeEventListener('resize', resizeHandler);
+    resizeHandler = () => chart && chart.resize();
+    window.addEventListener('resize', resizeHandler);
   }
 
   return { render };

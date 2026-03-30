@@ -14,12 +14,6 @@ const StatusOverview = (() => {
     }
   }
 
-  function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str || '';
-    return div.innerHTML;
-  }
-
   function statusBadgeClass(status) {
     const map = { 'Done': 'badge-done', 'In Progress': 'badge-in-progress', 'Todo': 'badge-todo', 'Blocked': 'badge-blocked', 'Backlog': 'badge-backlog' };
     return map[status] || 'badge-todo';
@@ -40,15 +34,15 @@ const StatusOverview = (() => {
 
     popover.innerHTML = `
       <div class="metric-popover-header">
-        <span>${escapeHtml(label)} (${matching.length})</span>
+        <span>${DashboardUtils.escapeHtml(label)} (${matching.length})</span>
         <button class="metric-popover-close" aria-label="Close">&times;</button>
       </div>
       <div class="metric-popover-list">
         ${matching.map(i => `
           <a class="metric-popover-item" href="${i.url}" target="_blank" rel="noopener">
             <span class="metric-popover-number">#${i.number}</span>
-            <span class="metric-popover-title">${escapeHtml(i.title)}</span>
-            <span class="badge ${statusBadgeClass(i.status)}">${escapeHtml(i.status || i.state)}</span>
+            <span class="metric-popover-title">${DashboardUtils.escapeHtml(i.title)}</span>
+            <span class="badge ${statusBadgeClass(i.status)}">${DashboardUtils.escapeHtml(i.status || i.state)}</span>
           </a>
         `).join('')}
       </div>

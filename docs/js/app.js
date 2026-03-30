@@ -22,7 +22,7 @@ const App = (() => {
   function populateSwitcher() {
     const switcher = document.getElementById('projectSwitcher');
     switcher.innerHTML = projects.map(p =>
-      `<option value="${p.id}">${escapeHtml(p.displayName)}</option>`
+      `<option value="${p.id}">${DashboardUtils.escapeHtml(p.displayName)}</option>`
     ).join('');
 
     switcher.addEventListener('change', () => {
@@ -41,15 +41,25 @@ const App = (() => {
       document.getElementById('lastUpdated').textContent =
         `Last updated: ${new Date(meta.fetchedAt).toLocaleString()}`;
 
-      // Render all components
-      StatusOverview.render(meta, issues);
-      TimelineHealth.render(issues);
-      PhaseProgress.render(meta);
-      ActivityFeed.render(activity);
-      IssueTable.render(issues);
-      PriorityChart.render(meta);
-      BurndownChart.render(issues);
-      GanttChart.render(issues);
+      // Render all components with error isolation
+      const components = [
+        { name: 'StatusOverview', fn: () => StatusOverview.render(meta, issues) },
+        { name: 'TimelineHealth', fn: () => TimelineHealth.render(issues) },
+        { name: 'PhaseProgress',  fn: () => PhaseProgress.render(meta) },
+        { name: 'ActivityFeed',   fn: () => ActivityFeed.render(activity) },
+        { name: 'IssueTable',     fn: () => IssueTable.render(issues) },
+        { name: 'PriorityChart',  fn: () => PriorityChart.render(meta) },
+        { name: 'BurndownChart',  fn: () => BurndownChart.render(issues) },
+        { name: 'GanttChart',     fn: () => GanttChart.render(issues) },
+      ];
+
+      for (const { name, fn } of components) {
+        try {
+          fn();
+        } catch (err) {
+          console.error(`Component ${name} failed to render:`, err);
+        }
+      }
 
     } catch (err) {
       console.error(`Failed to load project ${projectId}:`, err);
@@ -63,17 +73,11 @@ const App = (() => {
       <div class="card">
         <div class="card-body">
           <div class="empty-state" style="color: var(--color-danger);">
-            ${escapeHtml(message)}
+            ${DashboardUtils.escapeHtml(message)}
           </div>
         </div>
       </div>
     `;
-  }
-
-  function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str || '';
-    return div.innerHTML;
   }
 
   // Auto-init on DOM ready

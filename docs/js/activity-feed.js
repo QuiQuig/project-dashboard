@@ -32,11 +32,11 @@ const ActivityFeed = (() => {
 
   function describeEvent(item) {
     if (item.type === 'commit') {
-      return `<strong>${escapeHtml(item.author || 'Unknown')}</strong> committed: ${escapeHtml(item.message)}`;
+      return `<strong>${DashboardUtils.escapeHtml(item.author || 'Unknown')}</strong> committed: ${DashboardUtils.escapeHtml(item.message)}`;
     }
-    const actor = item.actor ? `<strong>${escapeHtml(item.actor)}</strong>` : 'Someone';
-    const issue = item.issue ? ` #${item.issue.number} ${escapeHtml(item.issue.title)}` : '';
-    return `${actor} ${escapeHtml(item.event || 'updated')}${issue}`;
+    const actor = item.actor ? `<strong>${DashboardUtils.escapeHtml(item.actor)}</strong>` : 'Someone';
+    const issue = item.issue ? ` #${item.issue.number} ${DashboardUtils.escapeHtml(item.issue.title)}` : '';
+    return `${actor} ${DashboardUtils.escapeHtml(item.event || 'updated')}${issue}`;
   }
 
   function render(activity) {
@@ -59,12 +59,6 @@ const ActivityFeed = (() => {
         </div>
       `;
     }).join('');
-  }
-
-  function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str || '';
-    return div.innerHTML;
   }
 
   return { render };
