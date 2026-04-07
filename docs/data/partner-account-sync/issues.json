@@ -1079,8 +1079,8 @@
     "status": "Todo",
     "priority": "P3 - Low",
     "phase": "Phase 4 — Reporting & Polish",
-    "estimatedStart": "2026-04-03",
-    "estimatedEnd": "2026-04-04",
+    "estimatedStart": "2026-04-07",
+    "estimatedEnd": "2026-04-07",
     "actualStart": null,
     "actualEnd": null,
     "effort": null,
@@ -1089,8 +1089,8 @@
       "Status": "Todo",
       "Priority": "P3 - Low",
       "Phase": "Phase 4 — Reporting & Polish",
-      "Estimated Start": "2026-04-03",
-      "Estimated End": "2026-04-04"
+      "Estimated Start": "2026-04-07",
+      "Estimated End": "2026-04-07"
     }
   }
 ]
