@@ -154,12 +154,8 @@
       "done": 6
     },
     "Phase 3 — Sync Engine": {
-      "total": 6,
+      "total": 7,
       "done": 4
-    },
-    "Phase 3 ��� Sync Engine": {
-      "total": 1,
-      "done": 0
     },
     "Phase 4 — Reporting & Polish": {
       "total": 5,
@@ -173,5 +169,5 @@
     "P0 - Critical": 2,
     "P3 - Low": 4
   },
-  "fetchedAt": "2026-04-12T07:13:58.195Z"
+  "fetchedAt": "2026-04-12T13:01:05.584Z"
 }
