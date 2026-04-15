@@ -838,7 +838,7 @@
   },
   {
     "id": "PVTI_lAHOCfCR9s4BSzkJzgobw2g",
-    "title": "Customer sync flow �� 4-source QB enrichment, match/create SF accounts",
+    "title": "Customer sync flow — 4-source QB enrichment, match/create SF accounts",
     "number": 24,
     "type": "issue",
     "state": "OPEN",
@@ -896,7 +896,7 @@
     "assignees": [],
     "status": "Blocked",
     "priority": "P1 - High",
-    "phase": "Phase 3 — Sync Engine",
+    "phase": "Phase 3 ��� Sync Engine",
     "estimatedStart": "2026-03-26",
     "estimatedEnd": "2026-03-31",
     "actualStart": null,
@@ -906,7 +906,7 @@
       "Title": "Asset sync flow — find QB assets, batch-create SF Asset records",
       "Status": "Blocked",
       "Priority": "P1 - High",
-      "Phase": "Phase 3 — Sync Engine",
+      "Phase": "Phase 3 ��� Sync Engine",
       "Estimated Start": "2026-03-26",
       "Estimated End": "2026-03-31"
     }
