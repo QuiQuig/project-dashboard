@@ -134,13 +134,44 @@
     }
   ],
   "stats": {
-    "total": 0,
-    "done": 0,
-    "inProgress": 0,
-    "blocked": 0,
-    "todo": 0
+    "total": 30,
+    "done": 23,
+    "inProgress": 3,
+    "blocked": 1,
+    "todo": 3
   },
-  "phases": {},
-  "priorities": {},
-  "fetchedAt": "2026-04-27T19:21:09.905Z"
+  "phases": {
+    "Unassigned": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 1 — Core Infrastructure": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 2 — API Integration": {
+      "total": 6,
+      "done": 6
+    },
+    "Phase 3 — Sync Engine": {
+      "total": 6,
+      "done": 4
+    },
+    "Phase 3 ��� Sync Engine": {
+      "total": 1,
+      "done": 0
+    },
+    "Phase 4 — Reporting & Polish": {
+      "total": 5,
+      "done": 1
+    }
+  },
+  "priorities": {
+    "None": 6,
+    "P1 - High": 10,
+    "P2 - Medium": 8,
+    "P0 - Critical": 2,
+    "P3 - Low": 4
+  },
+  "fetchedAt": "2026-04-28T02:52:14.453Z"
 }
