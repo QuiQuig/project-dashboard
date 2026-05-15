@@ -131,6 +131,18 @@
           "name": "Phase 4 — Reporting & Polish"
         }
       ]
+    },
+    {
+      "name": "Created",
+      "type": "CREATED"
+    },
+    {
+      "name": "Updated",
+      "type": "UPDATED"
+    },
+    {
+      "name": "Closed",
+      "type": "CLOSED"
     }
   ],
   "stats": {
@@ -169,5 +181,5 @@
     "P0 - Critical": 2,
     "P3 - Low": 4
   },
-  "fetchedAt": "2026-05-14T14:10:53.263Z"
+  "fetchedAt": "2026-05-15T03:28:29.970Z"
 }
