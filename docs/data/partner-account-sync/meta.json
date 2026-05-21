@@ -11,7 +11,7 @@
     "description": null,
     "openIssues": 7,
     "stars": 0,
-    "updatedAt": "2026-03-20T21:48:34Z"
+    "updatedAt": "2026-05-21T00:09:20Z"
   },
   "fields": [
     {
@@ -181,5 +181,5 @@
     "P0 - Critical": 2,
     "P3 - Low": 4
   },
-  "fetchedAt": "2026-05-20T20:13:25.969Z"
+  "fetchedAt": "2026-05-21T03:38:52.674Z"
 }
