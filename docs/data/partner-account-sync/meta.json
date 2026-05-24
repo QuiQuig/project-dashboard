@@ -162,8 +162,12 @@
       "done": 6
     },
     "Phase 2 — API Integration": {
-      "total": 6,
-      "done": 6
+      "total": 5,
+      "done": 5
+    },
+    "Phase 2 ��� API Integration": {
+      "total": 1,
+      "done": 1
     },
     "Phase 3 — Sync Engine": {
       "total": 7,
@@ -181,5 +185,5 @@
     "P0 - Critical": 2,
     "P3 - Low": 4
   },
-  "fetchedAt": "2026-05-24T13:25:00.848Z"
+  "fetchedAt": "2026-05-24T19:15:55.046Z"
 }
