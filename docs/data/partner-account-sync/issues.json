@@ -1043,7 +1043,7 @@
     "assignees": [],
     "status": "Todo",
     "priority": "P3 - Low",
-    "phase": "Phase 4 �� Reporting & Polish",
+    "phase": "Phase 4 — Reporting & Polish",
     "estimatedStart": "2026-03-29",
     "estimatedEnd": "2026-04-02",
     "actualStart": null,
@@ -1053,7 +1053,7 @@
       "Title": "End-to-end sandbox testing with production-like data",
       "Status": "Todo",
       "Priority": "P3 - Low",
-      "Phase": "Phase 4 �� Reporting & Polish",
+      "Phase": "Phase 4 — Reporting & Polish",
       "Estimated Start": "2026-03-29",
       "Estimated End": "2026-04-02"
     }

@@ -170,12 +170,8 @@
       "done": 4
     },
     "Phase 4 — Reporting & Polish": {
-      "total": 4,
+      "total": 5,
       "done": 1
-    },
-    "Phase 4 �� Reporting & Polish": {
-      "total": 1,
-      "done": 0
     }
   },
   "priorities": {
@@ -185,5 +181,5 @@
     "P0 - Critical": 2,
     "P3 - Low": 4
   },
-  "fetchedAt": "2026-06-02T10:22:13.743Z"
+  "fetchedAt": "2026-06-02T16:23:40.896Z"
 }
